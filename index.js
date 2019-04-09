@@ -8,34 +8,37 @@ console.log(cityB);
 console.log(nameCompared);
 
 // Javascript Number
-const beras = 7000;
-const gandum = 10000;
+const ricePrice = 7000;
+const wheatPrice = 10000;
 
-if (beras < gandum) {
-  console.log("pakai sayur");
-} else if (beras < gandum) {
-  console.log("tambah lauk");
+if (ricePrice < wheatPrice) {
+  console.log("Pakai sayur");
+} else if (ricePrice < wheatPrice) {
+  console.log("Tambah lauk");
 } else {
-  console.log("tambah seporsi");
+  console.log("Tambah seporsi");
 }
 
-// Javascript Array
-const siA = {
-    name= 'Ali',
-    age= 9
-}
+// Javascript Object
+const personA = {
+  name: "Ali",
+  age: 9
+};
 
-const siB = {
-    name= 'budi',
-    age= 5
-}
+const personB = {
+  name: "Budi",
+  age: 5
+};
 
-switch (siA.age < siB.age) {
-    case true: console.log ('selamat anda benar')
-break
+switch (personA.age < personB.age) {
+  case true:
+    console.log("selamat anda benar");
+    break;
 
-case false: console.log ('maaf jawaban anda salah')
-break
+  case false:
+    console.log("maaf jawaban anda salah");
+    break;
 
-default: console.log ('coba cari jawaban yang paling benar')
+  default:
+    console.log("coba cari jawaban yang paling benar");
 }
